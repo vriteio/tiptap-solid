@@ -1,0 +1,50 @@
+{
+  "name": "@vrite/tiptap-solid",
+  "version": "2023.03.24-2",
+  "description": "TipTap v2 integration for Solid.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "pnpm build"
+  },
+  "source": "src/index.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "browser": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "node": "./dist/cjs/index.js"
+    }
+  },
+  "keywords": [
+    "tiptap",
+    "wysiwyg",
+    "solid",
+    "solidjs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@tiptap/extension-bubble-menu": "2.0.0-beta.220",
+    "@tiptap/extension-floating-menu": "2.0.0-beta.220",
+    "nanoid": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tiptap/core": "2.0.0-beta.220",
+    "@tiptap/pm": "2.0.0-beta.220",
+    "rollup": "^3.20.2",
+    "rollup-preset-solid": "^2.0.1",
+    "solid-js": "^1.6.15",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "2.0.0-beta.220",
+    "@tiptap/pm": "2.0.0-beta.220",
+    "solid-js": "^1.6.15"
+  }
+}
