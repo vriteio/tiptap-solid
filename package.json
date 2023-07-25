@@ -1,6 +1,6 @@
 {
   "name": "@vrite/tiptap-solid",
-  "version": "2023.03.24-2",
+  "version": "2023.7.25",
   "description": "TipTap v2 integration for Solid.js",
   "type": "module",
   "scripts": {
@@ -30,21 +30,21 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@tiptap/extension-bubble-menu": "2.0.0-beta.220",
-    "@tiptap/extension-floating-menu": "2.0.0-beta.220",
-    "nanoid": "^4.0.1"
+    "@tiptap/extension-bubble-menu": "2.0.4",
+    "@tiptap/extension-floating-menu": "2.0.4",
+    "nanoid": "^4.0.2"
   },
   "devDependencies": {
-    "@tiptap/core": "2.0.0-beta.220",
-    "@tiptap/pm": "2.0.0-beta.220",
-    "rollup": "^3.20.2",
+    "@tiptap/core": "2.0.4",
+    "@tiptap/pm": "2.0.4",
+    "rollup": "^3.26.3",
     "rollup-preset-solid": "^2.0.1",
-    "solid-js": "^1.6.15",
-    "typescript": "^5.0.2"
+    "solid-js": "^1.7.8",
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "@tiptap/core": "2.0.0-beta.220",
-    "@tiptap/pm": "2.0.0-beta.220",
-    "solid-js": "^1.6.15"
+    "@tiptap/core": "2.0.4",
+    "@tiptap/pm": "2.0.4",
+    "solid-js": "^1.7.8"
   }
 }
