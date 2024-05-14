@@ -1,6 +1,6 @@
 {
   "name": "@vrite/tiptap-solid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TipTap v2 integration for Solid.js",
   "type": "module",
   "scripts": {
@@ -16,6 +16,7 @@
   ],
   "exports": {
     ".": {
+      "solid": "./dist/source/index.js",
       "import": "./dist/esm/index.js",
       "browser": "./dist/esm/index.js",
       "require": "./dist/cjs/index.js",
