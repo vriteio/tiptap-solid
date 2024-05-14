@@ -137,6 +137,10 @@ class SolidNodeView extends NodeView<
     node: ProseMirrorNode,
     decorations: DecorationWithType[]
   ): boolean {
+    if (node.type !== this.node.type) {
+      return false;
+    }
+
     if (typeof this.options.update === "function") {
       const oldNode = this.node;
       const oldDecorations = this.decorations;
@@ -151,10 +155,6 @@ class SolidNodeView extends NodeView<
         newDecorations: decorations,
         updateProps: () => this.updateProps({ node, decorations }),
       });
-    }
-
-    if (node.type !== this.node.type) {
-      return false;
     }
 
     if (node === this.node && this.decorations === decorations) {
