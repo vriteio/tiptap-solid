@@ -1,6 +1,6 @@
 {
   "name": "@vrite/tiptap-solid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TipTap v2 integration for Solid.js",
   "type": "module",
   "scripts": {
@@ -38,14 +38,14 @@
   "devDependencies": {
     "@tiptap/core": "2.4.0",
     "@tiptap/pm": "2.4.0",
-    "rollup": "^4.17.2",
+    "rollup": "^4.18.1",
     "rollup-preset-solid": "^2.0.1",
-    "solid-js": "^1.8.17",
-    "typescript": "^5.4.5"
+    "solid-js": "^1.8.18",
+    "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "@tiptap/core": "2.4.0",
     "@tiptap/pm": "2.4.0",
-    "solid-js": "^1.8.17"
+    "solid-js": "^1.8.18"
   }
 }
